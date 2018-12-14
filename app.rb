@@ -1,7 +1,7 @@
 require 'sinatra/base'
 
-class Battle < Sinatra::Base
-
+class Birthday< Sinatra::Base
+enable :sessions
   get '/'do
     erb :index
   end
