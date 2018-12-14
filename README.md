@@ -9,6 +9,12 @@ When the user submits the form, and depending on the current date, the app will 
 * wish the user happy birthday
 * tell them how long they'll have to wait until their next birthday
 
+Install gem dependencies:
+```
+bundle
+```
+And run with:
+
 ```
 ruby app.rb
 ```
