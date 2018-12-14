@@ -10,14 +10,14 @@ enable :sessions
     session[:name] = params[:name]
     session[:day] = params[:day]
     session[:month] = params[:month]
-    redirect to('/greetings')
+    redirect to('/wishes')
   end
 
-  get '/greetings' do
+  get '/wishes' do
     @name = session[:name]
     @day = session[:day]
     @month = session[:month]
-    erb :greetings
+    erb :wishes
   end
 
 run! if app_file == $0
